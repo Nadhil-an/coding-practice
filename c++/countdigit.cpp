@@ -5,7 +5,8 @@ int main(){
     int count=0;
 
     while(n>0){
-        count = count + 1;
+        int ld = n%10;
+        cout<<"last digits are:"<<ld<<endl;
         n = n / 10;
     }
     
